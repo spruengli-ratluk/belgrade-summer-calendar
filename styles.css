@@ -1,0 +1,216 @@
+
+:root {
+  --yellow: #f7c928;
+  --panel: rgba(17, 22, 23, .97);
+}
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  min-height: 100%;
+  background: #171717;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body { overflow-x: hidden; }
+
+.calendar-stage {
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+  background: #1b1b1b;
+}
+
+.calendar-image {
+  display: block;
+  width: 100%;
+  min-height: 100vh;
+  object-fit: cover;
+  object-position: center;
+  user-select: none;
+}
+
+.hotspots {
+  position: absolute;
+  inset: 0;
+}
+
+
+
+.windowic {
+  position: absolute;
+  appearance: none;
+  padding: 0;
+  border: 3px solid rgba(247, 201, 40, .92);
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255, 232, 153, .12),
+      rgba(247, 201, 40, .06)
+    );
+  box-shadow:
+    0 0 0 1px rgba(255, 239, 164, .52),
+    0 0 7px rgba(247, 201, 40, .42),
+    inset 0 0 18px rgba(255, 225, 120, .11);
+  cursor: pointer;
+  transition:
+    border-color .22s ease,
+    box-shadow .22s ease,
+    background-color .22s ease,
+    transform .22s ease,
+    filter .22s ease;
+}
+
+.windowic::before {
+  content: attr(data-number);
+  position: absolute;
+  top: 5px;
+  left: 6px;
+  color: var(--yellow);
+  font-size: clamp(.8rem, 1.35vw, 1.2rem);
+  font-weight: 800;
+  line-height: 1;
+  text-shadow:
+    0 2px 5px rgba(0,0,0,.9),
+    0 0 7px rgba(247,201,40,.35);
+  opacity: 1;
+  transform: none;
+}
+
+.windowic::after {
+  content: attr(data-title);
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 8px);
+  transform: translate(-50%, 6px);
+  padding: 6px 8px;
+  min-width: max-content;
+  color: #fff;
+  background: rgba(13,16,17,.93);
+  border: 1px solid rgba(247,201,40,.62);
+  font-size: .7rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .22s ease, transform .22s ease;
+}
+
+.windowic:nth-child(1) {
+  background-color: rgba(255, 214, 95, .07);
+}
+.windowic:nth-child(2) {
+  background-color: rgba(255, 235, 165, .08);
+}
+.windowic:nth-child(3) {
+  background-color: rgba(247, 201, 40, .045);
+}
+.windowic:nth-child(4) {
+  background-color: rgba(255, 194, 61, .075);
+}
+.windowic:nth-child(5) {
+  background-color: rgba(255, 225, 125, .055);
+}
+.windowic:nth-child(6) {
+  background-color: rgba(255, 211, 82, .065);
+}
+.windowic:nth-child(7) {
+  background-color: rgba(255, 231, 145, .06);
+}
+
+.windowic:hover,
+.windowic:focus-visible {
+  outline: none;
+  border-color: #ffd936;
+  background-color: rgba(247,201,40,.15);
+  box-shadow:
+    0 0 0 2px rgba(255,245,192,.92),
+    0 0 18px rgba(247,201,40,.95),
+    0 0 34px rgba(247,201,40,.38),
+    inset 0 0 20px rgba(255,228,113,.24);
+  transform: scale(1.035);
+  filter: brightness(1.13);
+}
+
+.windowic:hover::after,
+.windowic:focus-visible::after {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+
+.viewer {
+  width: min(760px, calc(100vw - 28px));
+  max-height: calc(100vh - 28px);
+  padding: 0;
+  border: 1px solid rgba(255,255,255,.15);
+  border-radius: 8px;
+  color: #f4f2ea;
+  background: var(--panel);
+  box-shadow: 0 28px 90px rgba(0,0,0,.68);
+}
+
+.viewer::backdrop {
+  background: rgba(0,0,0,.68);
+  backdrop-filter: blur(4px);
+}
+
+.viewer video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  background: #000;
+}
+
+.film-info { padding: 19px 23px 24px; }
+.window-number {
+  margin: 0 0 8px;
+  color: var(--yellow);
+  font-size: .76rem;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+.film-info h2 {
+  margin: 0 0 10px;
+  font-size: 1.45rem;
+  font-weight: 500;
+  letter-spacing: .035em;
+}
+.film-info > p:not(.window-number) {
+  margin: 0 0 18px;
+  line-height: 1.5;
+  color: #dedbd3;
+}
+#instagramLink {
+  display: inline-block;
+  padding: 9px 12px;
+  border: 1px solid var(--yellow);
+  color: var(--yellow);
+  text-decoration: none;
+  font-size: .77rem;
+  letter-spacing: .08em;
+}
+.close {
+  position: absolute;
+  z-index: 2;
+  top: 8px;
+  right: 9px;
+  width: 35px;
+  height: 35px;
+  border: 0;
+  border-radius: 50%;
+  color: white;
+  background: rgba(0,0,0,.62);
+  font-size: 24px;
+  cursor: pointer;
+}
+
+@media (max-width: 760px) {
+  .calendar-image {
+    width: auto;
+    height: 100vh;
+    max-width: none;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

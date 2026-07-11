@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Belgrade Summer Calendar 2026</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="calendar-stage">
+    <img class="calendar-image"
+         src="assets/calendar-background.png"
+         alt="Belgrade Summer Calendar 2026 on a brutalist apartment facade">
+    <div id="hotspots" class="hotspots" aria-label="Seven available Windowići"></div>
+  </main>
+
+  <dialog id="viewer" class="viewer">
+    <button class="close" type="button" aria-label="Close film">×</button>
+    <video id="player" controls playsinline preload="metadata"></video>
+    <div class="film-info">
+      <p id="windowNumber" class="window-number"></p>
+      <h2 id="filmTitle"></h2>
+      <p id="filmDescription"></p>
+      <a id="instagramLink" target="_blank" rel="noopener">VIEW ON INSTAGRAM ↗</a>
+    </div>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>
