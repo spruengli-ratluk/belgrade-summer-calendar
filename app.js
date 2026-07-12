@@ -61,7 +61,16 @@ const films = [
     poster: "assets/posters/07.jpg",
     instagram: "",
     box: [59.8, 69.5, 4.0, 8.0]
+  }  ,{
+    id: 8,
+    title: "PORT",
+    description: "Windowić 8/31. Saturday night at the Port Food Market at Luka Beograd.",
+    video: "assets/videos/08.mp4",
+    poster: "assets/posters/08.jpg",
+    instagram: "https://www.instagram.com/p/DasNjmbhFW1OQd93vQj0pJUDadchia-inQ2RnI0/",
+    box: [76.0, 78.0, 4.0, 8.0]
   }
+
 ];
 
 const hotspots = document.querySelector("#hotspots");
