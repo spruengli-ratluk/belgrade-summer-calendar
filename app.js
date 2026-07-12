@@ -68,7 +68,7 @@ const films = [
     video: "assets/videos/08.mp4",
     poster: "assets/posters/08.jpg",
     instagram: "https://www.instagram.com/p/DasNjmbhFW1OQd93vQj0pJUDadchia-inQ2RnI0/",
-    box: [76.0, 78.0, 4.0, 8.0]
+    box: [45.0, 25.0, 4.0, 8.0]
   }
 
 ];
