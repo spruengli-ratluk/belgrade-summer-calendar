@@ -71,7 +71,43 @@ const films = [
     box: [45.0, 25.0, 4.0, 8.0]
   }
 
-];
+,
+  {
+    id: 9,
+    title: "BUS",
+    description: "Windowić 9/31. Grannies. And buses. And blokovi.",
+    video: "assets/videos/09.mp4",
+    poster: "assets/posters/09.jpg",
+    instagram: "https://www.instagram.com/p/Dav8IoohACOlxQFTLFDUtFwD4eratB9DMv2sPY0/",
+    box: [11.0, 48.0, 4.0, 8.0]
+  },
+  {
+    id: 10,
+    title: "GENEX",
+    description: "Windowić 10/31. The Genex Tower, also known as Belgrade's Western Gate, is a landmark of Brutalist architecture.",
+    video: "assets/videos/10.mp4",
+    poster: "assets/posters/10.jpg",
+    instagram: "https://www.instagram.com/p/Daxr_PKB-KOf24eqvTfj8LFbk5__Wwdz-uxGNI0/",
+    box: [44.0, 34.0, 4.0, 8.0]
+  },
+  {
+    id: 11,
+    title: "DRINK",
+    description: "Windowić 11/31. Cafebar Coco on the Sava.",
+    video: "assets/videos/11.mp4",
+    poster: "assets/posters/11.jpg",
+    instagram: "https://www.instagram.com/p/Da0uK0uBnZKRlehf-FBiM88vpEVf3PGc2C79Bk0/",
+    box: [73.0, 70.0, 4.0, 8.0]
+  },
+  {
+    id: 12,
+    title: "KOKICE",
+    description: "Windowić 12/31. Popcorn – Kokice – on the Sava Promenada.",
+    video: "assets/videos/12.mp4",
+    poster: "assets/posters/12.jpg",
+    instagram: "https://www.instagram.com/p/Da2b_jRBdQAyWovrU-JmcffGnxNVT-rQY926w40/",
+    box: [88.0, 47.0, 4.0, 8.0]
+  }];
 
 const hotspots = document.querySelector("#hotspots");
 const viewer = document.querySelector("#viewer");

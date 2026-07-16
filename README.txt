@@ -1,23 +1,18 @@
-BELGRADE SUMMER CALENDAR 2026 — VERSION 6
+BELGRADE SUMMER CALENDAR 2026 — CALENDAR V8
 
-Open locally:
-1. Unzip the archive.
-2. Open the folder Belgrade-Summer-Calendar-2026/v6.
-3. Double-click index.html.
-4. Choose Firefox if asked.
+Contains active Windowići 1–12.
 
-Version 6 contains seven active Windowići:
-1. SWAN AND SAVA
-2. TISCH
-3. FIVE A.M.
-4. JURIJA GAGARINA
-5. FEET
-6. BASKET
-7. MTS
+New in this version:
+9. BUS
+10. GENEX
+11. DRINK
+12. KOKICE
 
-The layout and design are unchanged from Version 5.
-Only Windowić 6 and Windowić 7, their videos, posters and texts were added.
+Window positions 9–12 are placed on the facade and avoid the title and information panel.
 
-Note:
-- The Instagram URL for MTS was not supplied yet, so its Instagram button is hidden.
-- This local version does not change the WordPress website.
+To publish:
+1. Replace the contents of your local GitHub repository folder with this version.
+2. Open GitHub Desktop.
+3. Summary: Add Windowići 9–12
+4. Commit to main.
+5. Push origin.
