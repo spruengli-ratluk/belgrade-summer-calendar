@@ -115,7 +115,7 @@ const films = [
   video: "assets/videos/13.mp4",
   poster: "assets/posters/13.jpg",
   instagram: "https://www.instagram.com/p/Da5N-7cBImhv71Cj_wi5T64QdyJykEntdUfBwQ0/",
-  box: [58.0, 77.0, 4.0, 8.0]
+  box: [18.0, 82.0, 4.0, 8.0]
 }];
 
 const hotspots = document.querySelector("#hotspots");
