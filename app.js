@@ -107,7 +107,16 @@ const films = [
     poster: "assets/posters/12.jpg",
     instagram: "https://www.instagram.com/p/Da2b_jRBdQAyWovrU-JmcffGnxNVT-rQY926w40/",
     box: [88.0, 47.0, 4.0, 8.0]
-  }];
+  },
+{
+  id: 13,
+  title: "GYM",
+  description: "Windowić 13/31. Outdoor Gym at Sava Promenada.",
+  video: "assets/videos/13.mp4",
+  poster: "assets/posters/13.jpg",
+  instagram: "https://www.instagram.com/p/Da5N-7cBImhv71Cj_wi5T64QdyJykEntdUfBwQ0/",
+  box: [58.0, 77.0, 4.0, 8.0]
+}];
 
 const hotspots = document.querySelector("#hotspots");
 const viewer = document.querySelector("#viewer");
