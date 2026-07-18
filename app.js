@@ -127,6 +127,7 @@ const films = [
   box: [39.0, 79.0, 4.0, 8.0]
 }
 ];
+];
 
 const hotspots = document.querySelector("#hotspots");
 const viewer = document.querySelector("#viewer");
