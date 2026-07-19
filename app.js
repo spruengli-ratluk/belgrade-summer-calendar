@@ -125,6 +125,15 @@ const films = [
   poster: "assets/posters/14.jpg",
   instagram: "https://www.instagram.com/p/Da76N1jBouB6pcPG0b7sWXrRi2qqrdRbF6TV1c0/",
   box: [39.0, 79.0, 4.0, 8.0]
+},
+{
+  id: 15,
+  title: "MOSKVA",
+  description: "Windowić 15/31. Hotel Moskva, Belgrade.",
+  video: "assets/videos/15.mp4",
+  poster: "assets/posters/15.jpg",
+  instagram: "https://www.instagram.com/p/Da-df2ChbY5J0XB877qQpIMasMTj3UmZhTuk-w0/",
+  box: [64.0, 58.0, 4.0, 8.0]
 }
 ];
 
