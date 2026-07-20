@@ -134,6 +134,15 @@ const films = [
   poster: "assets/posters/15.jpg",
   instagram: "https://www.instagram.com/p/Da-df2ChbY5J0XB877qQpIMasMTj3UmZhTuk-w0/",
   box: [64.0, 58.0, 4.0, 8.0]
+},
+{
+  id: 16,
+  title: "KRAFTWERK",
+  description: "Windowić 16/31. Kraftwerk concert at Luka Beograd.",
+  video: "assets/videos/16.mp4",
+  poster: "assets/posters/16.jpg",
+  instagram: "https://www.instagram.com/p/DbBXwKOho6e8XDMzTcKlVddW3gdITkvl2ibo9Q0/",
+  box: [52.0, 65.0, 4.0, 8.0]
 }
 ];
 
