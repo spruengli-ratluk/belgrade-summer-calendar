@@ -143,6 +143,15 @@ const films = [
   poster: "assets/posters/16.jpg",
   instagram: "https://www.instagram.com/p/DbBXwKOho6e8XDMzTcKlVddW3gdITkvl2ibo9Q0/",
   box: [52.0, 65.0, 4.0, 8.0]
+},
+{
+  id: 17,
+  title: "TRAKTOR",
+  description: "Windowić 17/31. Tractor with mower on the Sava promenade.",
+  video: "assets/videos/17.mp4",
+  poster: "assets/posters/17.jpg",
+  instagram: "https://www.instagram.com/p/DbDvCAOB_p4Szh5JuOnZtokpmY84xeDMV6YTaQ0/",
+  box: [31.0, 67.0, 4.0, 8.0]
 }
 ];
 
