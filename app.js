@@ -152,6 +152,15 @@ const films = [
   poster: "assets/posters/17.jpg",
   instagram: "https://www.instagram.com/p/DbDvCAOB_p4Szh5JuOnZtokpmY84xeDMV6YTaQ0/",
   box: [31.0, 67.0, 4.0, 8.0]
+},
+{
+  id: 18,
+  title: "ŠLEPER",
+  description: "Windowić 18/31. A cargo ship on the Sava.",
+  video: "assets/videos/18.mp4",
+  poster: "assets/posters/18.jpg",
+  instagram: "https://www.instagram.com/p/DbFYayuBrxPd1V5zWjxhUdpXPu2RBjiZfF5k1M0/",
+  box: [81.0, 60.0, 4.0, 8.0]
 }
 ];
 
