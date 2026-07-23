@@ -161,6 +161,15 @@ const films = [
   poster: "assets/posters/18.jpg",
   instagram: "https://www.instagram.com/p/DbFYayuBrxPd1V5zWjxhUdpXPu2RBjiZfF5k1M0/",
   box: [81.0, 60.0, 4.0, 8.0]
+},
+{
+  id: 19,
+  title: "MOLERI",
+  description: "Windowić 19/31. Painters - moleri - at work: renovating the terrace.",
+  video: "assets/videos/19.mp4",
+  poster: "assets/posters/19.jpg",
+  instagram: "https://www.instagram.com/p/DbIOdewhjaLMpsvaB18h32c3s8czDzttsl924c0/",
+  box: [22.0, 56.0, 4.0, 8.0]
 }
 ];
 
