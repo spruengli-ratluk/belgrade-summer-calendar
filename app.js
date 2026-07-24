@@ -170,6 +170,15 @@ const films = [
   poster: "assets/posters/19.jpg",
   instagram: "https://www.instagram.com/p/DbIOdewhjaLMpsvaB18h32c3s8czDzttsl924c0/",
   box: [22.0, 56.0, 4.0, 8.0]
+},
+{
+  id: 20,
+  title: "GRADILIŠTE",
+  description: "Windowić 20/31. Belgrade is growing: Construction site - gradilište - behind the Eurasia Trade Center, Block 72.",
+  video: "assets/videos/20.mp4",
+  poster: "assets/posters/20.jpg",
+  instagram: "https://www.instagram.com/p/DbKwjp3htGUt_dcs5zACRj9HLv5CLVT_T_eya40/",
+  box: [70.0, 43.0, 4.0, 8.0]
 }
 ];
 
