@@ -188,6 +188,15 @@ const films = [
   poster: "assets/posters/21.jpg",
   instagram: "https://www.instagram.com/p/DbNbjOGB5Calk8BzdgWfqIshd8qegqOpAEeC3w0/",
   box: [47.0, 52.0, 4.0, 8.0]
+},
+{
+  id: 22,
+  title: "DOM ZDRAVLJA",
+  description: "Windowić 22/31. Behind the health center in Block 44, on the way to the market.",
+  video: "assets/videos/22.mp4",
+  poster: "assets/posters/22.jpg",
+  instagram: "https://www.instagram.com/p/DbRFCuUh7YqukkAl3xTbcOIcr6hUu8yaentsbY0/",
+  box: [58.0, 49.0, 4.0, 8.0]
 }
 ];
 
