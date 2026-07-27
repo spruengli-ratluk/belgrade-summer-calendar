@@ -197,6 +197,15 @@ const films = [
   poster: "assets/posters/22.jpg",
   instagram: "https://www.instagram.com/p/DbRFCuUh7YqukkAl3xTbcOIcr6hUu8yaentsbY0/",
   box: [58.0, 49.0, 4.0, 8.0]
+},
+{
+  id: 23,
+  title: "POOL",
+  description: "Windowić 23/31. In the pool with relatives at their vikendica.",
+  video: "assets/videos/23.mp4",
+  poster: "assets/posters/23.jpg",
+  instagram: "https://www.instagram.com/p/DbS8EiAB7RGK5E7yirO5revEuSH5_2vBLT8R040/",
+  box: [76.0, 72.0, 4.0, 8.0]
 }
 ];
 
