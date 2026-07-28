@@ -206,6 +206,15 @@ const films = [
   poster: "assets/posters/23.jpg",
   instagram: "https://www.instagram.com/p/DbS8EiAB7RGK5E7yirO5revEuSH5_2vBLT8R040/",
   box: [76.0, 72.0, 4.0, 8.0]
+},
+{
+  id: 24,
+  title: "VOJVODINA",
+  description: "Windowić 24/31. On the motorway towards Krčedin.",
+  video: "assets/videos/24.mp4",
+  poster: "assets/posters/24.jpg",
+  instagram: "https://www.instagram.com/p/DbVV6sIhgh0aMQihpRIidPS9ZCQsVoL4djZRjQ0/",
+  box: [14.0, 49.0, 4.0, 8.0]
 }
 ];
 
