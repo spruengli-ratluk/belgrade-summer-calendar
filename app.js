@@ -224,6 +224,15 @@ const films = [
   poster: "assets/posters/25.jpg",
   instagram: "https://www.instagram.com/p/DbYFZgSBDwPb7gGD1mEOuKkcAek_ikoo7hYsgA0/",
   box: [86.0, 47.0, 4.0, 8.0]
+},
+{
+  id: 26,
+  title: "SONNE",
+  description: "Windowić 26/31. Sunset at Belgrade Waterfront.",
+  video: "assets/videos/26.mp4",
+  poster: "assets/posters/26.jpg",
+  instagram: "https://www.instagram.com/p/Dbab2L4BhS3MzvY0vtlBXDpR9xxbIIiRNrbLZU0/",
+  box: [43.0, 74.0, 4.0, 8.0]
 }
 ];
 
