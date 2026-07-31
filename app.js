@@ -233,6 +233,15 @@ const films = [
   poster: "assets/posters/26.jpg",
   instagram: "https://www.instagram.com/p/Dbab2L4BhS3MzvY0vtlBXDpR9xxbIIiRNrbLZU0/",
   box: [43.0, 74.0, 4.0, 8.0]
+},
+{
+  id: 27,
+  title: "STILL IN BELGRADE",
+  description: "Windowić 27/31. Two friends who run the website stillinbelgrade.com, at the Istok restaurant in the Dorćol district. Full calendar: link in bio - or on stillinbelgrade.com.",
+  video: "assets/videos/27.mp4",
+  poster: "assets/posters/27.jpg",
+  instagram: "https://www.instagram.com/p/DbdfF_2BiPx7ZPBgFhqFqZSX0M8Z0aUCUxbObU0/",
+  box: [67.0, 72.0, 4.0, 8.0]
 }
 ];
 
