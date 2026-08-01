@@ -242,6 +242,15 @@ const films = [
   poster: "assets/posters/27.jpg",
   instagram: "https://www.instagram.com/p/DbdfF_2BiPx7ZPBgFhqFqZSX0M8Z0aUCUxbObU0/",
   box: [67.0, 72.0, 4.0, 8.0]
+},
+{
+  id: 28,
+  title: "WINDOWIĆ",
+  description: "Windowić 28/31. A guest post by Marcel Zaes, media artist in Vienna.",
+  video: "assets/videos/28.mp4",
+  poster: "assets/posters/28.jpg",
+  instagram: "https://www.instagram.com/p/DbgzTt5Bp999zni8oXhC7aBPAjCiywl7hKnCcs0/",
+  box: [28.0, 44.0, 4.0, 8.0]
 }
 ];
 
