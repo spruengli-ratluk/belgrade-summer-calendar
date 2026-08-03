@@ -251,6 +251,15 @@ const films = [
   poster: "assets/posters/28.jpg",
   instagram: "https://www.instagram.com/p/DbgzTt5Bp999zni8oXhC7aBPAjCiywl7hKnCcs0/",
   box: [28.0, 44.0, 4.0, 8.0]
+},
+{
+  id: 29,
+  title: "FEST",
+  description: "Windowić 29/31. Party on August 2nd with relatives and friends.",
+  video: "assets/videos/29.mp4",
+  poster: "assets/posters/29.jpg",
+  instagram: "https://www.instagram.com/p/DblatxfBvSz2eqOPNXfdGPzFIHGtnIUvJ2FOkw0/",
+  box: [8.0, 66.0, 4.0, 8.0]
 }
 ];
 
