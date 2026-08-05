@@ -269,6 +269,15 @@ const films = [
   poster: "assets/posters/30.jpg",
   instagram: "https://www.instagram.com/p/DbqJTYUhVSrAZRxoQ3hkYL5QM5-8CbcsKQ5HcM0/",
   box: [84.0, 36.0, 4.0, 8.0]
+},
+{
+  id: 31,
+  title: "ELEKTRONSKI",
+  description: "Windowić 31/31. This is where the sounds come from: Lara at the synthesizer in the studio of Radio Belgrade.",
+  video: "assets/videos/31.mp4",
+  poster: "assets/posters/31.jpg",
+  instagram: "https://www.instagram.com/p/DbqKaBxhrhO4Qi75gXmGwvVD9GSuuv0MZV-uTc0/",
+  box: [91.0, 74.0, 4.0, 8.0]
 }
 ];
 
