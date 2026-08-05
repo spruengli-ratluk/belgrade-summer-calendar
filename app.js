@@ -260,6 +260,15 @@ const films = [
   poster: "assets/posters/29.jpg",
   instagram: "https://www.instagram.com/p/DblatxfBvSz2eqOPNXfdGPzFIHGtnIUvJ2FOkw0/",
   box: [8.0, 66.0, 4.0, 8.0]
+},
+{
+  id: 30,
+  title: "HARFE",
+  description: "Windowić 30/31. The 'Harp Bridge', the most na adi, a landmark of Belgrade.",
+  video: "assets/videos/30.mp4",
+  poster: "assets/posters/30.jpg",
+  instagram: "https://www.instagram.com/p/DbqJTYUhVSrAZRxoQ3hkYL5QM5-8CbcsKQ5HcM0/",
+  box: [84.0, 36.0, 4.0, 8.0]
 }
 ];
 
